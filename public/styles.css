@@ -1,0 +1,164 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  background-color: black;
+  color: white;
+  font-family: monospace, sans-serif;
+}
+
+
+section {
+  
+  margin: 5px;
+  display: flex;
+  flex-wrap: wrap;
+}
+section > div {
+  margin: 5px;
+  padding: 10px;
+  display: flex;
+  background-color: #222222;
+}
+
+.top {
+  width: 100%;
+
+}
+
+.left {
+  flex: 0 0 20%;
+}
+
+.right {
+  flex: 1 0 0%;
+}
+
+#onTheTable {
+
+  justify-content: space-between;
+}
+
+#agenda {
+  flex-direction: column;
+}
+
+#tabs {
+  flex-direction: column;
+}
+
+#content {
+  display: flex;
+  flex-direction: column;
+  border-style: solid;
+  border-color: green;
+}
+
+/* VIDEO STUFF */
+.videoCase {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+#video {
+  max-width: 100%;
+  max-height: 50vh;
+}
+
+.littleTitle {
+  padding-bottom: 10px;
+  font-size: .8em;
+  vertical-align: text-top;
+}
+
+
+.bigText {
+  align-self: center;
+  font-size: 2em;
+  line-height: .8;
+  font-weight: bolder;
+}
+
+.mode {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  flex: 1 0 0;
+  font-size: 1em;
+  background-color: #111111;
+  font-weight: bolder;
+}
+
+.tab {
+  margin-left: -10px;
+  margin-right: -10px;
+  margin-top: 5px;
+  padding: 10px;
+  font-size: 1em;
+  background-color: #111111;
+  font-weight: bolder;
+}
+
+.tabTitle {
+  text-align: center;
+}
+
+.item {
+  margin-left: -10px;
+  margin-right: -10px;
+  margin-top: 5px;
+  padding: 10px;
+  font-size: 1em;
+  background-color: #111111;
+  font-weight: bolder;
+}
+
+.itemText { 
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.itemContent {
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: .5em;
+  font-weight: lighter;
+}
+
+.activeTab {
+  background-color: green;
+  margin-right: -10px;
+}
+
+.activeItem {
+  background-color: green;
+  margin-right: -10;
+}
+
+.web {
+  width: 100%;
+  height: 800px;
+}
+.item:hover {
+  background-color: #333333;
+}
+.tab:hover {
+  background-color: #333333;
+  cursor: grab;
+}
+.activeItem:hover {
+  background-color: darkgreen;
+}
+.activeTab:hover {
+  background-color: darkgreen;
+}
+
+.nonVideo {
+  background-color: darkred;
+}
+
+
+
